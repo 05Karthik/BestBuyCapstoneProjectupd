@@ -6,13 +6,13 @@
   </listeners>
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
-      <class name="Testcases.Tc_09_Checkout_fillingpage">
+      <class name="Testcases.Tc_08_Menu_Brand_Select">
         <methods>
           <include name="startup"/>
-          <include name="CheckOutPageFillingas_using_guest"/>
+          <include name="AddItemShopByBrandMenu"/>
           <include name="close"/>
         </methods>
-      </class> <!-- Testcases.Tc_09_Checkout_fillingpage -->
+      </class> <!-- Testcases.Tc_08_Menu_Brand_Select -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
