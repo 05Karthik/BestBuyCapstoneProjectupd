@@ -120,8 +120,11 @@ public class Homepage extends Utility{
 	public void selectTvMenuInHomePage() {
 
 		menuButton.click();
+		waitExplicit(tvInMenu);
 		tvInMenu.click();
+		waitExplicit(tvsByBrandInnerMenu);
 		tvsByBrandInnerMenu.click();
+		waitforElementTobeClickable(sonyTvsInnerMenu2, 5000);
 		sonyTvsInnerMenu2.click();
 	}
 

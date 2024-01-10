@@ -10,8 +10,8 @@
       <class name="Testcases.Tc_07_Menu_shop_by_Dept"/>
       <class name="Testcases.Tc_02_Verify_LinkBroken"/>
       <class name="Testcases.Tc_09_Checkout_fillingpage"/>
-      <class name="Testcases.Tc_05_Homepage"/>
       <class name="Testcases.Tc_06_Search_additem"/>
+      <class name="Testcases.Tc_05_Homepage"/>
       <class name="Testcases.Tc_01_Navigatetowebpage"/>
       <class name="Testcases.Tc_08_Menu_Brand_Select"/>
       <class name="Testcases.Tc_03_CreateaccountpageTest"/>

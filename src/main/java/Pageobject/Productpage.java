@@ -20,7 +20,7 @@ public class Productpage extends Utility{
 				PageFactory.initElements(driver, this);
 			}
 	
-	@FindBy(xpath="(//button[contains(@type,'button')][normalize-space()='Add to Cart'])[3]")
+	@FindBy(xpath="(//button[contains(@type,'button')][normalize-space()='Add to Cart'])[1]")
 	WebElement addToCartLogitechMouse;
 	
 	@FindBy(xpath="//a[text()='Go to Cart']")
@@ -29,7 +29,7 @@ public class Productpage extends Utility{
 	@FindBy(xpath="//button[text()='Continue shopping']")
 	WebElement continueShoping;
 	
-	@FindBy(xpath="(//h4[contains(@class,'sku-title')])[3]")
+	@FindBy(xpath="(//div[contains(@role,'none')])[1]")
 	WebElement logitechMouseAtProductPage;
 	
 	@FindBy(xpath="(//a[contains(text(),'Logitech - PRO X SUPERLIGHT Lightweight Wireless O')])[1]")
