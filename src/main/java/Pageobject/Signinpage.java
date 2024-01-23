@@ -30,10 +30,11 @@ public class Signinpage extends Utility{
 	@FindBy(xpath="//a[text()='Visit our homepage']")
 	WebElement goToHomePage;
 	
-	public void signin(String emailid, String pass){
+	public void signin(String emailid, String pass) throws InterruptedException{
 		email.sendKeys(emailid);
 		password.sendKeys(pass);
 		signInButton.click();
+		Thread.sleep(3000);
 	}
 	
 
